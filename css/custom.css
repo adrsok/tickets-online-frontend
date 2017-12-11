@@ -39,6 +39,22 @@ html {
 
 /* content */
 
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background: none;
+}
+
+a {
+	color: white;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	background: none;
+}
+
+a:focus, a:hover {
+	color: none;
+}
+
 .bg1 {
 	background: #272727;
 	padding: 10px 5px;
